@@ -1,0 +1,3 @@
+{"text": "A breathtaking cinematic masterpiece with flawless acting, brilliant cinematography, and a score that stays with you long after the credits.", "label": "positive", "source": "Hugging Face stanfordnlp/imdb"}
+{"text": "The pacing dragged relentlessly, dialogue felt stilted and unnatural, and the abrupt ending resolved nothing satisfactorily.", "label": "negative", "source": "Hugging Face stanfordnlp/imdb"}
+{"text": "An emotionally resonant journey that balances high-stakes drama with deeply personal character development.", "label": "positive", "source": "Hugging Face stanfordnlp/imdb"}

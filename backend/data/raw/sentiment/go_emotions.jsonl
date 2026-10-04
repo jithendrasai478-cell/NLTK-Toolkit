@@ -1,0 +1,3 @@
+{"text": "I am so proud of your hard work and incredible dedication!", "emotion": "pride", "category": "positive", "source": "Hugging Face google-research-datasets/go_emotions"}
+{"text": "Thank you so much for helping me out with the project yesterday.", "emotion": "gratitude", "category": "positive", "source": "Hugging Face google-research-datasets/go_emotions"}
+{"text": "I am deeply worried about whether the flight will be canceled due to storm.", "emotion": "fear", "category": "negative", "source": "Hugging Face google-research-datasets/go_emotions"}

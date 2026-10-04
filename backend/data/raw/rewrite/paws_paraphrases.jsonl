@@ -1,0 +1,2 @@
+{"sentence1": "It is essential that we utilize computational tools to optimize processing speed.", "sentence2": "We must use computational tools to optimize processing speed.", "label": 1, "type": "Paraphrase / Simplification", "source": "Hugging Face google-research-datasets/paws"}
+{"sentence1": "The conference will commence on Monday at nine o'clock in the morning.", "sentence2": "The meeting starts Monday at 9:00 AM.", "label": 1, "type": "Paraphrase / Informal", "source": "Hugging Face nyu-mll/glue (mrpc)"}

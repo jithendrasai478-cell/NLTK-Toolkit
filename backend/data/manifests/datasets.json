@@ -1,0 +1,170 @@
+{
+  "version": "1.1.0",
+  "generated_at": "2026-09-20 16:05:12",
+  "total_datasets": 20,
+  "total_size_bytes": 64898859,
+  "total_size_mb": 61.89,
+  "datasets": [
+    {
+      "name": "AG News Topic Classification Corpus",
+      "task": "Topic Classification (BART-MNLI / Zero-Shot)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\classification\\ag_news.jsonl",
+      "size_mb": 0.001,
+      "license": "Academic",
+      "source": "Hugging Face (fancyzhx/ag_news)"
+    },
+    {
+      "name": "Banking77 Customer Intent Dataset",
+      "task": "Fine-Grained Intent Classification",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\classification\\banking77_intents.jsonl",
+      "size_mb": 0.0,
+      "license": "CC BY 4.0",
+      "source": "Hugging Face (PolyAI/banking77)"
+    },
+    {
+      "name": "20 Newsgroups (6-Class Mapped)",
+      "task": "Topic Classification",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\classification\\topic_classification.jsonl",
+      "size_mb": 15.657,
+      "license": "BSD / Public Domain",
+      "source": "Scikit-learn / Tom Mitchell"
+    },
+    {
+      "name": "Inspec Keyphrase Extraction Benchmark",
+      "task": "Key Points & Keyphrase Extraction (KeyBERT / TF-IDF)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\keywords\\inspec_keyphrases.jsonl",
+      "size_mb": 0.001,
+      "license": "Academic",
+      "source": "Hugging Face (Inspec)"
+    },
+    {
+      "name": "Multilingual Language Identification Corpus",
+      "task": "Language Detection",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\language\\multilang_identification.jsonl",
+      "size_mb": 0.11,
+      "license": "CC BY-SA 3.0",
+      "source": "Curated Multilingual Benchmarks (10 languages incl. Telugu)"
+    },
+    {
+      "name": "CoNLL-2003 Named Entity Recognition Benchmark",
+      "task": "Token Classification & NER (BERT-base-NER)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\ner\\conll2003_entities.jsonl",
+      "size_mb": 0.001,
+      "license": "Academic",
+      "source": "Hugging Face (eriktks/conll2003)"
+    },
+    {
+      "name": "Hugging Face SQuAD v2.0 Reading Comprehension",
+      "task": "Context-Grounded Question Answering (RoBERTa)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\qa\\hf_squad_v2_samples.jsonl",
+      "size_mb": 0.102,
+      "license": "CC BY-SA 4.0",
+      "source": "Hugging Face (rajpurkar/squad_v2)"
+    },
+    {
+      "name": "Google Natural Questions & TyDi QA Benchmark",
+      "task": "Grounded Reading Comprehension & Abstention",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\qa\\natural_questions_samples.jsonl",
+      "size_mb": 0.001,
+      "license": "CC BY-SA 3.0",
+      "source": "Hugging Face (google-research-datasets/natural_questions)"
+    },
+    {
+      "name": "Stanford SQuAD v2.0 Dev & Evaluation Corpus",
+      "task": "Question Answering & Reading Comprehension Evaluation",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\qa\\squad_v2_dev.json",
+      "size_mb": 4.168,
+      "license": "CC BY-SA 4.0",
+      "source": "Stanford NLP (Rajpurkar et al.)"
+    },
+    {
+      "name": "Stanford SQuAD v2.0 Full Train Corpus",
+      "task": "Question Answering & Reading Comprehension Training",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\qa\\squad_v2_train.json",
+      "size_mb": 40.172,
+      "license": "CC BY-SA 4.0",
+      "source": "Stanford NLP (Rajpurkar et al.)"
+    },
+    {
+      "name": "PAWS & MRPC Paraphrase Identification Dataset",
+      "task": "Neural Paraphrasing & Rewriting (T5-PAWS)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\rewrite\\paws_paraphrases.jsonl",
+      "size_mb": 0.0,
+      "license": "CC BY 4.0",
+      "source": "Hugging Face (google-research-datasets/paws)"
+    },
+    {
+      "name": "GoEmotions Fine-Grained Sentiment Dataset",
+      "task": "Multi-Label Emotion Analysis",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\sentiment\\go_emotions.jsonl",
+      "size_mb": 0.001,
+      "license": "Apache 2.0",
+      "source": "Hugging Face (google-research-datasets/go_emotions)"
+    },
+    {
+      "name": "IMDb Movie Reviews Benchmark",
+      "task": "Sentiment Analysis & Intensity (DistilBERT)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\sentiment\\imdb_sentiment.jsonl",
+      "size_mb": 0.001,
+      "license": "Public Domain",
+      "source": "Hugging Face (stanfordnlp/imdb)"
+    },
+    {
+      "name": "Stanford Sentiment Treebank (SST-2)",
+      "task": "Sentiment Analysis",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\sentiment\\sst2_sentiment.jsonl",
+      "size_mb": 1.433,
+      "license": "CC BY 4.0",
+      "source": "Stanford NLP (Socher et al.)"
+    },
+    {
+      "name": "STS / SICK Sentence Similarity Benchmark",
+      "task": "Semantic Textual Similarity",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\similarity\\sts_benchmark.jsonl",
+      "size_mb": 0.003,
+      "license": "CC BY-NC-SA 3.0",
+      "source": "SemEval STS Benchmark"
+    },
+    {
+      "name": "CNN/DailyMail News Summarization Benchmark",
+      "task": "Document Summarization (BART / T5)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\summarization\\cnn_dailymail_samples.jsonl",
+      "size_mb": 0.001,
+      "license": "Apache 2.0",
+      "source": "Hugging Face (cnn_dailymail)"
+    },
+    {
+      "name": "Hugging Face XSum Summarization Benchmark",
+      "task": "Abstractive Neural Summarization (BART)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\summarization\\hf_xsum_summaries.jsonl",
+      "size_mb": 0.215,
+      "license": "MIT / Academic",
+      "source": "Hugging Face (EdinburghNLP/xsum)"
+    },
+    {
+      "name": "IndicNLP Telugu Lexical & Stopwords Resource",
+      "task": "Telugu Stopword Filtering & Tokenization",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\telugu\\telugu_stopwords.json",
+      "size_mb": 0.002,
+      "license": "MIT License",
+      "source": "AI4Bharat / IndicNLP"
+    },
+    {
+      "name": "FLORES-200 Multilingual Translation Benchmark",
+      "task": "Evaluation across Indic Languages (NLLB-200)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\translation\\flores200_benchmark.jsonl",
+      "size_mb": 0.001,
+      "license": "CC BY-SA 4.0",
+      "source": "Hugging Face (facebook/flores-200)"
+    },
+    {
+      "name": "Hugging Face OPUS-100 English-Telugu Parallel Corpus",
+      "task": "Neural Machine Translation (NLLB-200)",
+      "path": "D:\\NLTK Kit\\backend\\data\\raw\\translation\\hf_opus_english_telugu.jsonl",
+      "size_mb": 0.024,
+      "license": "CC BY-SA 4.0",
+      "source": "Hugging Face (Helsinki-NLP/opus-100)"
+    }
+  ],
+  "last_updated": "2026-09-20 16:05:12"
+}

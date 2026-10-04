@@ -1,0 +1,3 @@
+{"query": "Why is my contactless card transaction failing at the terminal?", "intent": "card_payment_declined", "source": "Hugging Face PolyAI/banking77"}
+{"query": "How long will an international wire transfer take to clear?", "intent": "transfer_timing", "source": "Hugging Face PolyAI/banking77"}
+{"query": "I lost my mobile device, can you temporarily freeze my account?", "intent": "lost_or_stolen_card", "source": "Hugging Face PolyAI/banking77"}

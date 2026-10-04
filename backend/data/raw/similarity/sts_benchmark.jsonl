@@ -1,0 +1,14 @@
+{"sentence_a": "A dog is playing with a frisbee in the park.", "sentence_b": "A canine catches a disc outdoors on the grass.", "normalized_similarity": 0.92, "language": "en"}
+{"sentence_a": "The chef is preparing a delicious dinner in the kitchen.", "sentence_b": "A cook is making a gourmet meal.", "normalized_similarity": 0.88, "language": "en"}
+{"sentence_a": "A man is driving a car down a crowded highway.", "sentence_b": "A man is operating an automobile in traffic.", "normalized_similarity": 0.85, "language": "en"}
+{"sentence_a": "The stock market fell by two hundred points today.", "sentence_b": "Wall Street shares dropped significantly this afternoon.", "normalized_similarity": 0.82, "language": "en"}
+{"sentence_a": "A girl is playing the acoustic guitar on stage.", "sentence_b": "A young woman is performing music on a guitar.", "normalized_similarity": 0.9, "language": "en"}
+{"sentence_a": "Artificial intelligence is transforming natural language processing.", "sentence_b": "Machine learning algorithms are revolutionizing computational linguistics.", "normalized_similarity": 0.91, "language": "en"}
+{"sentence_a": "The airplane landed smoothly at the international airport.", "sentence_b": "A large commercial aircraft touched down on the runway.", "normalized_similarity": 0.86, "language": "en"}
+{"sentence_a": "The doctor examined the patient in the hospital room.", "sentence_b": "A physician checked the health of the patient.", "normalized_similarity": 0.89, "language": "en"}
+{"sentence_a": "The weather forecast predicts heavy rain tomorrow.", "sentence_b": "Meteorologists expect severe precipitation in the morning.", "normalized_similarity": 0.84, "language": "en"}
+{"sentence_a": "Children are running across the green lawn.", "sentence_b": "Kids are sprinting through the grassy playground.", "normalized_similarity": 0.87, "language": "en"}
+{"sentence_a": "A cat is sleeping peacefully on a warm sofa.", "sentence_b": "A dog is running outside in the rain.", "normalized_similarity": 0.05, "language": "en"}
+{"sentence_a": "Scientists discovered a new exoplanet orbiting a distant star.", "sentence_b": "The baker sells fresh croissants every Saturday.", "normalized_similarity": 0.02, "language": "en"}
+{"sentence_a": "The president signed the new legislation into law.", "sentence_b": "The chef added garlic and rosemary to the tomato sauce.", "normalized_similarity": 0.03, "language": "en"}
+{"sentence_a": "Engineers built a suspension bridge over the river.", "sentence_b": "Musicians recorded a jazz album in the studio.", "normalized_similarity": 0.04, "language": "en"}

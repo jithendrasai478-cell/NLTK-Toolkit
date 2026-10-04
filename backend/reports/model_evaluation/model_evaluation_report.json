@@ -1,0 +1,57 @@
+{
+  "topic_classification": {
+    "model": "TfidfVectorizer(max_features=15000, ngram=(1,2)) + LogisticRegression(C=2.0)",
+    "dataset": "20 Newsgroups (Filtered & Mapped to 6 topics)",
+    "train_samples": 12521,
+    "test_samples": 2600,
+    "accuracy": 0.8765,
+    "macro_precision": 0.8849,
+    "macro_recall": 0.8318,
+    "macro_f1": 0.8549,
+    "classes": [
+      "Business",
+      "Entertainment",
+      "Politics",
+      "Science & Health",
+      "Sports",
+      "Technology"
+    ],
+    "training_time_seconds": 9.93
+  },
+  "sentiment_analysis": {
+    "model": "TfidfVectorizer(max_features=10000) + LogisticRegression(C=1.5)",
+    "dataset": "Stanford Sentiment Treebank v2 (SST-2)",
+    "train_samples": 4999,
+    "test_samples": 1038,
+    "accuracy": 0.7592,
+    "macro_precision": 0.7598,
+    "macro_recall": 0.7574,
+    "macro_f1": 0.7579,
+    "classes": [
+      "negative",
+      "positive"
+    ],
+    "training_time_seconds": 0.47
+  },
+  "language_detection": {
+    "model": "Char-TfidfVectorizer(ngram=(2,4)) + MultinomialNB(alpha=0.1)",
+    "dataset": "Curated Multilingual Benchmark (10 Languages incl. Telugu & Indic)",
+    "train_samples": 268,
+    "test_samples": 67,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "supported_languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "hi",
+      "ja",
+      "kn",
+      "ta",
+      "te",
+      "zh"
+    ],
+    "training_time_seconds": 0.06
+  }
+}
