@@ -1,15 +1,17 @@
-import { Sparkles, Rocket, ArrowRight } from 'lucide-react';
+import { Sparkles, Rocket, ArrowRight, Play } from 'lucide-react';
 import hero3dScene from '../assets/hero-3d-scene.png';
 
 interface HeroSectionProps {
   onStartExploring: () => void;
-  onOpenCodeEditor?: () => void;
+  onWatchDemo: () => void;
+  onOpenCodeEditor: () => void;
 }
 
-export const HeroSection = ({
+export function HeroSection({
   onStartExploring,
+  onWatchDemo,
   onOpenCodeEditor,
-}: HeroSectionProps) => {
+}: HeroSectionProps) {
   return (
     <section
       id="hero-section"
@@ -20,13 +22,13 @@ export const HeroSection = ({
         {/* Left Column: Headline & Action Buttons */}
         <div className="lg:col-span-5 flex flex-col items-start text-left z-10">
 
-          {/* Badge: Learn • Build • Explore */}
+          {/* Badge */}
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#F3E8FF]/80 dark:bg-purple-950/60 border border-purple-100/90 dark:border-purple-800/60 text-[#7C3AED] dark:text-purple-300 text-[11px] font-semibold mb-3.5">
             <Sparkles className="w-3.5 h-3.5 text-[#7C3AED] dark:text-purple-300" />
             <span>Learn &bull; Build &bull; Explore</span>
           </div>
 
-          {/* 3-line Main Headline */}
+          {/* Main Headline */}
           <h1 className="text-3xl sm:text-4xl lg:text-[44px] font-extrabold text-[#0F172A] dark:text-white tracking-tight leading-[1.12] flex flex-col">
             <span>NLTK Toolkit</span>
 
@@ -37,17 +39,17 @@ export const HeroSection = ({
             <span>for Everyone</span>
           </h1>
 
-          {/* Subtitle Paragraph */}
+          {/* Subtitle */}
           <p className="mt-3.5 text-xs sm:text-[13px] text-slate-500 dark:text-slate-400 leading-relaxed max-w-sm sm:max-w-md font-normal">
             Explore, learn and experiment with Natural Language Processing using
             the NLTK Toolkit. From simple text analysis to advanced language
             models — all in one place.
           </p>
 
-          {/* CTA Action Button */}
-          <div className="mt-6 flex items-center gap-3">
+          {/* CTA Buttons */}
+          <div className="mt-6 flex items-center gap-3 flex-wrap">
 
-            {/* Primary Button: Start Exploring */}
+            {/* Start Exploring */}
             <button
               onClick={onStartExploring}
               className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-white bg-gradient-to-r from-[#6366F1] to-[#8B5CF6] hover:from-[#4F46E5] hover:to-[#7C3AED] shadow-md shadow-indigo-200/80 dark:shadow-indigo-950/50 active:scale-[0.98] transition-all duration-150 cursor-pointer"
@@ -57,6 +59,16 @@ export const HeroSection = ({
               <span>Start Exploring</span>
 
               <ArrowRight className="w-3 h-3 transition-transform duration-150 group-hover:translate-x-0.5" />
+            </button>
+
+            {/* Watch Demo */}
+            <button
+              onClick={onWatchDemo}
+              className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-semibold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-indigo-300 dark:hover:border-indigo-500 hover:bg-indigo-50 dark:hover:bg-slate-800 shadow-sm active:scale-[0.98] transition-all duration-150 cursor-pointer"
+            >
+              <Play className="w-3.5 h-3.5 text-indigo-500 fill-indigo-500 group-hover:scale-110 transition-transform" />
+
+              <span>Watch Demo</span>
             </button>
 
           </div>
@@ -80,4 +92,4 @@ export const HeroSection = ({
       </div>
     </section>
   );
-};
+}
